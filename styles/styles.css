@@ -1,10 +1,12 @@
+                                  /* shared styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* shared styles */
+
 .font-inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -22,13 +24,9 @@
     cursor: pointer;
 }
 
-.container {
-    max-width: 1600px;
-    margin: 0 auto;
 
-}
 
-/* main styles */
+                                    /* main styles */
 header {
     background-color: #FFFFFF;
     padding-top: 16px 120px;
@@ -68,7 +66,8 @@ nav button:hover {
     background-color: yellowgreen;
 }
 
-/* banner styles */
+                           /* banner--hero styles */
+
 #banner {
     background-image: url(../assets/hero-bg.png);
     background-size: cover;
@@ -135,7 +134,7 @@ nav button:hover {
 }
 
 
-/* cards */
+                       /* cards -- card design and icons*/
 #about {
     background-color: #FFFFFF;
     max-width: 1600px;
@@ -203,27 +202,27 @@ nav button:hover {
     margin-bottom: 21.5px;
 }
 
-/* second brain - Image and Checklist*/
+                    /* Second brain - Image and Checklist section*/
+
+
 .second-container {
-    width: 100%;
-    max-width: 1360px;
-    margin: 120px;
+    width: 1360px;
+    margin: 0 auto;
     display: flex;
     gap: 60px;
-    justify-content: flex-start;
-    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .second-container .brain-img {
     width: 600px;
     height: 600px;
     border-radius: 12px;
-    justify-content: left;
-
-
 }
 
-
+.second-container .text {
+    vertical-align: middle;
+}
 
 .second-container h4 {
     color: #30B868;
@@ -239,23 +238,24 @@ nav button:hover {
 
 .second-container .text p {
     color: #627382;
+    padding-right: 20px;
     line-height: 20px;
     margin-top: 16px;
 }
 
 .second-container .list {
-    display: inline-block;
-    gap: 10px;
+    margin-bottom: 16px;
     padding-top: 40px;
+
 }
-
-
 
 .second-container .list img {
     align-items: flex-start;
     width: 20px;
     height: 20px;
     padding: 1.88px;
+    vertical-align: bottom;
+
 
 }
 
@@ -270,8 +270,7 @@ nav button:hover {
 
 }
 
-/* ready */
-
+                   /* Reeady To Think? -- Challenge section*/
 
 #ready .ready-container {
     max-width: 1360px;
@@ -316,7 +315,7 @@ nav button:hover {
     color: #627382;
 }
 
-/* footer */
+                   /* Footer with logo, icons and a hr tag */
 footer {
     margin-top: 120px;
     padding: 120px 120px 30px 120px;
