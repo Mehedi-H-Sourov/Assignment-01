@@ -19,6 +19,7 @@
     border-radius: 4px;
     border: none;
     padding: 12px 16px;
+    cursor: pointer;
 }
 
 .container {
@@ -57,6 +58,14 @@ nav .menu a {
     font-size: 16px;
     text-decoration: none;
     color: #000000;
+}
+
+nav li:hover {
+    background-color: grey;
+}
+
+nav button:hover {
+    background-color: yellowgreen;
 }
 
 /* banner styles */
@@ -101,9 +110,12 @@ nav .menu a {
     border: 1px #FFFFFF solid;
     border-radius: 4px;
     background-color: transparent;
+    cursor: pointer;
 }
 
-
+#banner .banner-content button:hover {
+    background: yellowgreen;
+}
 
 
 #banner .banner-content .btn3 {
@@ -112,6 +124,7 @@ nav .menu a {
     border-radius: 1000px;
     background-color: #FFFFFF;
     max-width: 229px;
+    cursor: pointer;
 
 }
 
@@ -124,10 +137,13 @@ nav .menu a {
 
 /* cards */
 #about {
+    background-color: #FFFFFF;
+    max-width: 1600px;
     padding-top: 20px;
 }
 
 #about .card-container {
+
     max-width: 1360px;
     margin: 0px auto;
     text-align: center;
@@ -147,6 +163,7 @@ nav .menu a {
 }
 
 #about .card-container .card-container {
+
     display: flex;
     gap: 24px;
     justify-content: center;
@@ -165,9 +182,9 @@ nav .menu a {
 
 #about .card-container .info-card img {
     background: rgba(249, 85, 85, 1);
-    width: 32px;
-    height: 32px;
     border-radius: 50%;
+    padding: 14px 13px;
+    margin-top: 50px;
     margin-bottom: 16px;
     justify-content: center;
 }
@@ -183,6 +200,7 @@ nav .menu a {
     font-size: 16px;
     line-height: 20px;
     color: #627382;
+    margin-bottom: 21.5px;
 }
 
 /* second brain - Image and Checklist*/
@@ -285,7 +303,13 @@ nav .menu a {
     font-weight: 600;
     border-radius: 4px;
     border: none;
-    padding: 12px 16px
+    padding: 12px 16px;
+    cursor: pointer;
+
+}
+
+#ready .ready-container button:hover {
+    background-color: yellowgreen;
 }
 
 #ready .ready-container .no-credit p {
@@ -306,12 +330,15 @@ footer {
     justify-content: space-between;
 }
 
+.footer-container .social .icons a {
+    margin-right: 16px;
+}
+
 .social a img {
     width: 20px;
     height: 20px;
     background-color: white;
     border-radius: 50%;
-    gap: 16px;
 }
 
 .social p {
